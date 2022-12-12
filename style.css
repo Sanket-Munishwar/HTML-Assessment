@@ -31,7 +31,7 @@ img.r-img {
 #anchor {
     color: white;
 }
-  .nav-top {
+.nav-top {
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -77,6 +77,10 @@ h1.main-text {
     font-size: 10px;
     font-weight: bold;
 }
+
+img.icon-one{
+    width: 50px;
+}
 /**************** center ***********/
 .center {
     position: relative;
@@ -115,10 +119,12 @@ p.num {
     margin: 0;
 }
 p.climb {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: arial;
-    color: red;
+    color: rgb(10, 8, 8);
     align-self: baseline;
+    
+    
 }
 p.para {
     font-size: 0.8rem;
@@ -139,6 +145,14 @@ p.para {
 }
 .center-nav .para {
     max-width: 40%;
+}
+.center-p .climb{
+    margin-top: 58px;
+    
+}
+.center-nav .climb{
+    margin-left: 50px;
+    margin-top: 10px;
 }
   
 /**************** bottom ***********/
@@ -192,10 +206,12 @@ table {
     color: #617193;
     font-family: arial;
 }
+
+
 @media screen and (max-width: 450px) {
     h1.main-text {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1rem;
+        line-height: 1rem;
         top:40%;
     }
     a{
@@ -264,9 +280,9 @@ table {
         margin:1%;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     h1.main-text {
-        font-size: 4.5rem;
+        font-size: 3rem;
         line-height: 4rem;
         top:35%;
     }
@@ -275,5 +291,13 @@ table {
     }
     table h1{
         margin:1%;
+    }
+}
+@media screen and (max-width: 300px) {
+    h1.main-text {
+        font-size: 1rem;
+        line-height: 2rem;
+        top: 40%;
+
     }
 }
